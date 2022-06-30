@@ -1,0 +1,16 @@
+ingress:
+  enabled: false
+  hostname: restapi_.svc.cluster.local
+
+
+mysql:
+  enabled: true
+  db:
+    user: restapi_
+    password:
+    name: restapi_
+  root:
+    password:
+
+
+
