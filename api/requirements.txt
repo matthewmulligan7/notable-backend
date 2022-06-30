@@ -1,0 +1,14 @@
+Flask_Cors==3.0.8
+Flask==2.0.1
+flask_restx==0.5.0
+requests>=2.27.0
+uwsgi==2.0.18
+PyYAML>=5.3.1
+cryptography==3.2.1
+PyMySQL==0.9.3
+pony==0.7.11
+
+
+
+
+

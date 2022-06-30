@@ -1,0 +1,6 @@
+{
+    "precheck": "SHOW COLUMNS FROM restapi_.apiinfo where field='initialized_date';",
+    "sql_statements": [
+        "ALTER TABLE restapi_.apiinfo ADD COLUMN `initialized_date` INT NULL DEFAULT NULL AFTER `api_name`;"
+    ]
+}
